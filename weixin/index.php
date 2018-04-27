@@ -210,9 +210,9 @@ class wechatCallbackapiTest
 
 
 define("TOKEN", "123456");
-// $wechatObj = new wechatCallbackapiTest();
+$wechatObj = new wechatCallbackapiTest();
 
-$wechatObj->valid();
+// $wechatObj->valid();
 
 $wechatObj->responseMsg();
 
