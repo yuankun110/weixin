@@ -7,8 +7,8 @@
 class Wechatapi
 {
 
-    public $appid = "";
-    public $appsecret = "";
+    public $appid = "wx25a6930fc93448e6";
+    public $appsecret = "2abd60e1ee149e098b65c5d2e4b9d283";
 
     /**
      * 获取Access Token
