@@ -88,8 +88,8 @@ class wechatCallbackapiTest
                     $Title = "小幸运";
                     $type = "music";
                     $Description = "桃子鱼仔的Ukulele教室";
-                    $MusicUrl = "http://wx.maczen.cn/music/lucky.mp3";
-                    $HQMusicUrl = "http://wx.maczen.cn/music/lucky.mp3";
+                    $MusicUrl = "http://github.com/yuankun110/weixin/weixin/music/lucky.mp3";
+                    $HQMusicUrl = "http://github.com/yuankun110/weixin/weixin/music/lucky.mp3";
                     $ThumbMediaId = "JcX0UIGCrSnFHpsbzk4OeVQ_YSHdqtAGxcSoTLnUrXg";
 
                     $resultStr = sprintf($textTpl, $fromUsername, $toUsername, $type, $time, $Title, $Description, $MusicUrl, $HQMusicUrl, $ThumbMediaId);
